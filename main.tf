@@ -90,4 +90,12 @@ resource "aws_dynamodb_table" "basic-dynamodb-table" {
   }
 }
 
+resource "aws_instance" "vm3" {
+  ami           = "ami-00beae93a2d981137"
+  instance_type = "t2.micro"
+  subnet_id     = aws_subnet.my_subnet.id
 
+  tags = {
+    Name = var.manual_instance_name
+  }
+}

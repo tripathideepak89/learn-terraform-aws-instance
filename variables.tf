@@ -13,7 +13,7 @@ variable "instance_name2" {
 variable "manual_instance_name" {
   description = "Value of the Name tag for the manually created EC2 instance"
   type        = string
-  default     = "manually_created_vm"
+  default     = "my-ec2-instance"
 }
 
 variable "s3_bucket_name" {
