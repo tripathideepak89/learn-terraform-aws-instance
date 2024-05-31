@@ -6,6 +6,16 @@ Welcome to the Learn Terraform AWS Instance repository! This repository contains
 
 Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and provision infrastructure using declarative configuration files. This repository provides step-by-step examples and explanations to guide you through the process of creating AWS EC2 instances with Terraform.
 
+## Case Study
+
+- create an infra with IAC Terraform
+- VPC and two VM 
+- delete VM1 
+- create third VM  
+- update terrafor code to include dynamoDB
+- terraform plan
+- show the changes suggested by Terraform, what happens to statefile
+
 ## Contents
 
 - Getting Started: Instructions on how to get started with Terraform and AWS.
